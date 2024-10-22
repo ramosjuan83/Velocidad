@@ -7,11 +7,11 @@ const fetch = require('node-fetch');
 const chalk = require('chalk');
 const sound = require('sound-play')
 
-const TelegramBot = require('node-telegram-bot-api');
+//const TelegramBot = require('node-telegram-bot-api');
 // replace the value below with the Telegram token you receive from @BotFather
-const token = '7627661768:AAHMN6xtVmhGB14mzq-VVPOFYW8G2G8et7w';
+//const token = '7627661768:AAHMN6xtVmhGB14mzq-VVPOFYW8G2G8et7w';
 // Create a bot that uses 'polling' to fetch new updates
-const bot = new TelegramBot(token, {polling: true});
+//const bot = new TelegramBot(token, {polling: true});
 
 const notifier = require('node-notifier');
 
