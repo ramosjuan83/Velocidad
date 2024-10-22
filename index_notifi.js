@@ -1,7 +1,7 @@
 
 
 const notifier = require('node-notifier');
-
+console.log("HOLA");
 // String
 notifier.notify('¡advertencia de operar!');
 // Object
